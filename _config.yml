@@ -1,0 +1,23 @@
+# Site Build Settings
+
+# jekyll-paginate configuration
+paginate:            5
+
+# Build settings
+markdown:            kramdown
+highlighter:         rouge
+permalink:           /:title
+plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
+
+domain: aroraindry.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://aroraindry.github.io # the base hostname and protocol for your site, e.g. http://example.com
+baseurl: /aroraindry.github.io/      # place folder name if the site is served in a subfolder
+
+# Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
+title:		           "Indry Arora"
+description:	       "a life well lived"
+author:              "Blake"
+
+# RSS 2.0 can be used instead of Atom by uncommenting following two lines
+#feed:
+#  path: rss-feed.xml
